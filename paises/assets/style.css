@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: linear-gradient(to right, #006494, #247ba0);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: 800;
+}
+
+.titulo-principal {
+    text-align: center;
+    margin: 50px 0 30px 0;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+
+#color {
+    height: 31rem;
+    width: 0.2rem;
+    margin-top: 4.2rem;
+    background-color: #fff;
+}
+
+.subtitulo {
+    font-size: 2rem;
+    margin-top: 1.3rem;
+}
+
+.lista-de-paises_ol {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+.input_section {
+    font-family: 'Cormorant SC', serif;
+    margin-top: 2.8rem;
+}
+
+#paragrafo-input_section {
+    padding: 0.25rem 0;
+}
+
+#input-input_section {
+    font-size: 1.2rem;
+    color: black;
+    padding: 6px;
+    width: 28rem;
+}
+
+.botao-input_section {
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 14rem;
+    height: 2.5rem;
+    padding: 1px;
+}
+
+#resultado {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+#imagem {
+    overflow: hidden;
+}
+
+.game_section {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    body {
+        font-size: 2rem;
+        margin: 0;
+        font-weight: 0;
+        max-width: max-content;
+        padding: 0;
+        width: 428px;
+        text-align: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #input-input_section {
+        width: 20rem;
+    }
+
+    #color {
+        width: 0;
+        height: 0;
+    }
+
+    .subtitulo {
+        margin-top: 4rem;
+    }
+
+    .input_section {
+        margin-top: 0;
+    }
+
+    #imagem, #resultado {
+        padding-bottom: 1rem;
+    }
+}
